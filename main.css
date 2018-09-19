@@ -1,0 +1,57 @@
+body{
+     background-color: #eeeafa;
+}
+h3{
+    font-weight: bold;
+}
+label{
+    font-size:15px;
+}
+.thumbnails{
+    margin: 20px 0; 
+}
+
+.thumbnail{
+    position:relative;
+}  
+
+.thumbnail h3{
+    font-size: 16px;
+    margin: 0 0 10px;
+    line-height: 20px;
+}
+
+.thumbnail .price{
+     font-size: 22px;
+     position: absolute;
+     top: -10px;
+     right: -10px;
+     padding: 10px
+}   
+
+.thumbnail .price sup{
+      font-weight:normal;
+      font-size: 12px;
+}
+
+.thumbnail span.glyphicon{
+      margin-right: 5px;
+}
+btn{
+    background-color: #000060;
+}
+
+/* Small devices (smartphone 600px and up) */
+@media (min-width: 600px) {
+       .thumbnail .price{
+           font-size:10px;
+           }
+        .thumbnail .price sup{
+            font-size: 10px;   
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}

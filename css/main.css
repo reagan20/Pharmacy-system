@@ -1,0 +1,46 @@
+
+.page-title{
+	text-align: center;
+}
+
+#totalLabel{
+	text-align: right;
+}
+body{
+	background-image: 'pills.jpg'
+}
+#panel1{
+	width:wrap ;
+	height:wrap;
+	padding: 10px;
+	margin: 10px;
+}
+#heading1
+{
+	text-align: center;
+}
+.form
+{
+	border-style: solid;
+}
+#row
+{
+	padding: 200px;
+}
+#buttonSubmit
+{
+	align-content: left;
+}
+.form-control
+{
+	display: block;
+}
+textarea.form-control
+{
+	height: auto;
+	width: 280px;
+	min-height: 100px;
+}
+#btnAdd
+{
+	text-align:left;
